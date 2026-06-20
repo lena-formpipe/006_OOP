@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdb156c8-9701-4468-af7a-0c5a921f3b4b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/006_OOP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/my_app/uppg1_diskutera.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/my_app/uppg2_lander.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/my_app/uppg3_banken.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/my_app/uppg4_webbshop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_uppg3_banken.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_uppg4_webbshop.py" afterDir="false" />
+    <list default="true" id="bdb156c8-9701-4468-af7a-0c5a921f3b4b" name="Changes" comment="laddar upp allt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/my_app/uppg1_diskutera.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_app/uppg1_diskutera.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/my_app/uppg2_lander.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/my_app/uppg2_lander.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lena-formpipe"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lena-formpipe/006_OOP",
+    "accountId": "2d186bf0-7bc3-4262-aa74-bcf678efecde"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7,
   "fromUser": false
@@ -83,10 +84,23 @@
       <option name="presentableId" value="Default" />
       <updated>1781517847768</updated>
     </task>
+    <task id="LOCAL−00001" summary="laddar upp allt">
+      <option name="closed" value="true" />
+      <created>1781942739062</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1781942739062</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="laddar upp allt" />
+    <MESSAGE value="laddar upp allt ." />
+    <option name="LAST_COMMIT_MESSAGE" value="laddar upp allt ." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

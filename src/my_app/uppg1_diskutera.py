@@ -52,7 +52,7 @@ def sound_off(animal):
     animal.make_noise()
 
 # 2b Lägg till en klass för ett annat djur, till exempel en papegoja.
-class Parrot(Animal)
+class Parrot(Animal):
     def make_noise(self):
         print("Krax!")
 
@@ -61,20 +61,28 @@ class Parrot(Animal)
 c = Cat()
 d = Dog()
 h = Rooster()
-print("Dog")
+print("Skriv ut Dog")
 d.make_noise()
 print("---------------")
-print("Cat")
+print("Skriv ut Cat")
 c.make_noise()
 print("---------------")
-print("Rooster")
+print("Skriv ut Rooster")
 h.make_noise()
 print("---------------")
 
-# Kan inte anropa med en lista
+# Kan inte anropa med en lista, måste anropa per objekt
 # sound_off([c, d, h])
+# skriv in en loop
+list = [c, d, h]
+i = 0
+while i <= (len(list)-1):
+    sound_off(list[i])
+    print
+    i += 1
+
 
 # kan anropa med ett objekt animal
-sound_off(c)
+# sound_off(c)
 
 

@@ -17,10 +17,10 @@ class Country:
     # 1d Ändra i metoden "print_info" så att den skriver ut arean också, men bara om arean inte är None.
     def print_info(self):
         if self.__area == None:
-            print(f"I {self.__name} bor det {self.__population} miljoner invånare.")
+            print(f"I {self.__name} bor det {round(self.__population, 2)} miljoner invånare.")
 
         else:
-            print(f"I {self.__name} bor det {self.__population} miljoner invånare och en area på {self.__area} kvm.")
+            print(f"I {self.__name} bor det {round(self.__population, 2)}  miljoner invånare och en area på {self.__area} kvm.")
 
         # 1f Ändra i "print_info" så att den skriver ut alla officiella språk, på en ny rad.
         i = len(self.__language)
@@ -42,19 +42,24 @@ class Country:
         self.__language.append(string)
 
     def __str__(self):
-        return f"I {self.__name} bor det {self.__population} miljoner invånare och en area på {self.__area} kvm. och {self.__language}"
+        return f"I {self.__name} bor det {self.__population} miljoner invånare och en area på {self.__area}. och {self.__language}"
 
 
-se = Country("Sverige", 10.5)
+
+# använder klassen Country
+print("\n____________________ Uppgift 2 länder __________________________________\n")
+print("Skapar landet sverige med pop 10.5555 miljoner invånare.")
+se = Country("Sverige", 10.5555)
+print("Sätt area = 100.")
 se.area(100)
-no = Country("Norge", 5.5)
-dk = Country("Danmark", 6.0)
-isl = Country("Island", 0.4)
+print("Sätt språk svenska.")
 se_sv = "svenska"
 se.add_language(se_sv)
-# print(se)
-se.add_language("finska")
-isl.area(60)
+print("Skapa landet island.")
+isl = Country("Island", 0.4)
+print("Lägg till språk samiska i sverige.")
+se.add_language("samiska")
+print("\nSkriv ut ländernas information:")
 
 se.print_info()
 isl.print_info()
