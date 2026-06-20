@@ -4,11 +4,11 @@ Inser att det är svårt skriva tester då det blir långa "arrange" för att sk
 
 
 
-| Uppgift | Status          |
-|---------|-----------------|
-| 1       |
-| 2       | klart länder    |
-| 3       | klart banken    |
-| 4       | klar, få tester |
+| Uppgift | Status           |
+|---------|------------------|
+| 1       | klart diskussion |
+| 2       | klart länder     |
+| 3       | klart banken     |
+| 4       | klar webbshop    |
 
 
